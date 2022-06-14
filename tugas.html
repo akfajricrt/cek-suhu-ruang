@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Constructor Inheritance</title>
+  </head>
+  <body>
+    <script>
+      // function Ruangan(luasRuang) {
+      //   this.luasRuang = luasRuang;
+      //   const input = prompt("Masukan Luas Ruangan");
+
+      //   if (input < 20 || input > 50) {
+      //     alert(`ruangan sempit`);
+      //   } else {
+      //     alert(`ruangan luas`);
+      //   }
+      //   this.Suhu = function (luasRuang) {
+      //     console.info(`suhu saat ini adalah ${this.luasRuang}`);
+      //   };
+      // }
+
+      // const suhu = new Ruangan("suhu anda 25");
+      // suhu.Suhu("suhu ruangan panas");
+      // alert(suhu);
+
+      const masuk = confirm("apakah anda ingin mengetahui suhu AC");
+      if (masuk) {
+        const input = prompt("Masukan Luas Ruangan");
+        if (input < 20 || input > 50) {
+          alert(`ruangan sempit`);
+        } else {
+          alert(`ruangan luas`);
+        }
+      }
+
+      if (masuk) {
+        const input = prompt("Masukan Jumlah Orang");
+        if (input < 15 || input > 15) {
+          alert(`orang sedikit`);
+        } else {
+          alert(`orang banyak`);
+        }
+      }
+      if (masuk) {
+        const input = prompt("Masukan Jumlah Cuaca");
+        if (input < 22 || input > 32) {
+          alert(`suhu dingin`);
+        } else {
+          alert(`suhu panas`);
+        }
+      }
+
+      if (masuk) {
+        const input = prompt("Masukan Jumlah Suhu");
+        if (input == 18 || input == 26) {
+          alert(`dingin`);
+        } else {
+          alert(`naik`);
+        }
+      }
+    </script>
+  </body>
+</html>
