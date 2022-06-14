@@ -1,1 +1,1 @@
-# cek-suhu-ruang
+![image.png]( {link gambar} )
