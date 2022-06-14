@@ -1,1 +1,0 @@
-# cek-suhu-ruang
